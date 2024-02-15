@@ -21,47 +21,47 @@ plein pleeeein
 
 /* ------------------------- Les variables ------------------------------*/
 // Declaration d'une variable
-let uneVariable
-// Affectation d'une variable 
-uneVariable = "Je suis une variable!"
-console.log(uneVariable)
+// let uneVariable
+// // Affectation d'une variable 
+// uneVariable = "Je suis une variable!"
+// console.log(uneVariable)
 
-let hellofriends = "Hello Friends love"
+// let hellofriends = "Hello Friends love"
 
-console.log(hellofriends)
+// console.log(hellofriends)
 
-// Les différents types de variable
-let messages = 'un message'
-let number = 20
-let decimal = 20.5
-let boolean = true
-let boolean2 = false
+// // Les différents types de variable
+// let messages = 'un message'
+// let number = 20
+// let decimal = 20.5
+// let boolean = true
+// let boolean2 = false
 
-// Les opérations arithmétiques (+,-,*,/)
-// Déclarer 3 variables sum, number1, number2
-// Affecter le nombre 10 à number1
-// Affecter le nombre 20 à number2
-// Affecter à sum l'opération de multiplication des 2 variables précédentes
+// // Les opérations arithmétiques (+,-,*,/)
+// // Déclarer 3 variables sum, number1, number2
+// // Affecter le nombre 10 à number1
+// // Affecter le nombre 20 à number2
+// // Affecter à sum l'opération de multiplication des 2 variables précédentes
 
-let sum 
-let number1 = 10
-let number2 = 20
-sum = number1 * number2
-console.log(sum)
+// let sum 
+// let number1 = 10
+// let number2 = 20
+// sum = number1 * number2
+// console.log(sum)
 
-/* ------------------------- La Concatenation ------------------------------*/
-let firstName = 'Oura'
-let lastName = 'Diarra'
+// /* ------------------------- La Concatenation ------------------------------*/
+// let firstName = 'Oura'
+// let lastName = 'Diarra'
 
-// Je m'appelle firstName lastName
+// // Je m'appelle firstName lastName
 
-console.log("Je m'appelle " + firstName +' '+ lastName)
+// console.log("Je m'appelle " + firstName +' '+ lastName)
 
-// Déclarer une variable city, afficher message j'adore vivre à city
- let City = 'Plessis Bouchard'
-console.log("J'adore vivre au " + City)
+// // Déclarer une variable city, afficher message j'adore vivre à city
+//  let City = 'Plessis Bouchard'
+// console.log("J'adore vivre au " + City)
 
-console.log(`J'adore vivre au ${City}, je m'appelle ${firstName} ${lastName}`)
+// console.log(`J'adore vivre au ${City}, je m'appelle ${firstName} ${lastName}`)
 
 /* ------------------------- Instrcutions Conditionnelles ------------------------------*/
 
@@ -159,12 +159,103 @@ console.log(`J'adore vivre au ${City}, je m'appelle ${firstName} ${lastName}`)
 
 // }
 
-let A = 12
-let B = 14
-console.log(A, B)
-let C=A
-A=B
+// let A = 12
+// let B = 14
+// console.log(A, B)
+// let C=A
+// A=B
 
-B=C
-console.log(A, B)
+// B=C
+// console.log(A, B)
 
+//  Déclarer vos revenus
+
+// chaque année mes revenus augmente de 10% grâce à mes placemnts
+
+// Au bout de combien d'années mes revenus dépasseront 30 000e.
+
+
+// let Revenue = 20000
+// let N = 0
+
+// while(Revenue<30000){
+//      Revenue = Revenue+Revenue*0.1
+//      N = N+1
+
+// console.log(`Il faudra ${N} années, mon revenue sera de ${Revenue}`)
+// }
+
+// let Marrakech = 1000000
+// let Agadir = 500000
+// let N = 0
+
+// while(Agadir<Marrakech){
+//     Agadir *= 1.08
+//     Marrakech += 50000
+//     N=N+1
+//     console.log(`Il faudra ${N} années, afin que la population d'Agadir dépasse celle de Marrakech`)
+// }
+
+//  Boucle à itération (tour) définies (for)
+
+// for(let i=0; i<11; i++){
+// let res = i*7
+//     console.log(`${i} x 7 = ${i*7}`)
+ 
+// }
+
+// Algorithme qui fait deviner un chiffre à l'utilisateur
+
+// let devine = 14
+// let res = prompt('Devine le chiffre magique')
+
+// while(res != devine){
+// if(res <devine){
+// res = prompt ("Faux, le chiffre magique est plus grand")}
+// else{
+// res = prompt('Le nombre magique est plus petit baaah nullos')
+// }
+// }
+
+// console.log('Yeaaah BLG trop forte')
+
+/* ------------------------- Les fonctions ------------------------------*/
+
+/*
+
+Une fonction est un bloc d'instrcutions réutilisable.
+Elle peut prendre des paramètres et renvoyer un résultat
+Elle est déclarée avec le mot clé function
+
+*/
+
+// function helloWorld(){
+// //     console.log('hello, World!')
+// }
+
+// function calculNasa(){
+//     let res = 2232423265
+//     let essence = 99545423
+//     let anneeLumiere = 759845125
+
+//     let solution = res*essence/anneeLumiere**24627
+
+//     return solution
+// }
+
+// let solution = calculNasa()
+
+
+// Ecrire une fonction qui écrit Bonjour le monde !
+
+function Bonjour(){
+    console.log('Hello')
+}
+
+Bonjour()
+
+function HelloYou(name){
+    console.log('Bonjour' + name)
+}
+
+HelloYou('Oura')
