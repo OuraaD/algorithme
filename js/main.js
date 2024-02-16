@@ -49,11 +49,11 @@ plein pleeeein
 // sum = number1 * number2
 // console.log(sum)
 
-// /* ------------------------- La Concatenation ------------------------------*/
+/* ------------------------- La Concatenation ------------------------------*/
 // let firstName = 'Oura'
 // let lastName = 'Diarra'
 
-// // Je m'appelle firstName lastName
+// Je m'appelle firstName lastName
 
 // console.log("Je m'appelle " + firstName +' '+ lastName)
 
@@ -214,10 +214,10 @@ plein pleeeein
 // res = prompt ("Faux, le chiffre magique est plus grand")}
 // else{
 // res = prompt('Le nombre magique est plus petit baaah nullos')
-// }
-// }
+//  }
+//  }
 
-// console.log('Yeaaah BLG trop forte')
+//  console.log('Yeaaah BLG trop forte')
 
 /* ------------------------- Les fonctions ------------------------------*/
 
@@ -248,14 +248,64 @@ Elle est déclarée avec le mot clé function
 
 // Ecrire une fonction qui écrit Bonjour le monde !
 
-function Bonjour(){
-    console.log('Hello')
-}
+// function Bonjour(){
+//     console.log('Hello')
+// }
 
-Bonjour()
+// Bonjour()
 
-function HelloYou(name){
-    console.log('Bonjour' + name)
-}
+// function HelloYou(name){
+//     console.log('Bonjour' + name)
+// }
 
-HelloYou('Oura')
+// HelloYou('Oura')
+
+
+
+// Écrire une fonction qui calcule la perimètre d'un carré et l'afficher
+
+// function square(x){
+
+//     let resultat = x*4
+//     return resultat
+
+// }
+
+// let resSquare = square(23)
+// console.log(resSquare)
+
+// Algorithme qui calcule et affiche le carre d'un nombre
+
+// function powerSquared (x){
+
+//     return x**2
+
+// }
+
+// let power = powerSquared(978)
+// console.log(power)
+
+//  // Ecrire un algorithme qui affiche les nombres pairs de 0 à 100
+
+// function loop(){
+
+//  console.log(loop)
+//  return loop
+
+//  for(let i=0;i<=100;i=i+2){
+
+//       let res = i + 2
+//      console.log(i)
+//   }
+
+//  }
+
+
+//  function loop(count,want){
+
+//     for(let i=0;i<=count;i=i+want){
+//        console.log(i)
+//       }
+   
+//     }
+//   loop(120,4)
